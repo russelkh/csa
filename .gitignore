@@ -1,0 +1,17 @@
+# Sensitive info
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# File uploads
+uploads/
+
+# Editor configs
+.vscode/
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
