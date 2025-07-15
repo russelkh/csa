@@ -1,0 +1,116 @@
+{
+    "home_section": {
+      "hero_title": "Welcome to CSA",
+      "hero_subtitle": "Empowering Excellence",
+      "album_link": "/album",
+      "admission_link": "/admission"
+    },
+  
+    "about_section": {
+      "title": "About CSA",
+      "paragraphs": [
+        "Competitive Success Academy is a premier educational institution dedicated to nurturing young minds and preparing them for the challenges of tomorrow. Founded in 1995, our academy has consistently ranked among the top schools in the region.",
+        "Our mission is to provide a holistic education that combines academic rigor with character development. We believe in fostering critical thinking, creativity, and compassion in all our students.",
+        "With state-of-the-art facilities and a faculty of distinguished educators, CSA offers an unparalleled learning environment. Our alumni have gone on to excel in diverse fields, from medicine and engineering to arts and public service.",
+        "At CSA, we don't just teach subjects - we teach students how to learn, adapt, and thrive in an ever-changing world. Our unique curriculum blends traditional values with innovative teaching methodologies."
+      ],
+      "carousel_images": [
+        "https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/about%20image0.jpeg",
+        "https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/csa%20about%20probable%202.jpeg",
+        "https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/csa%20about%20probable%203.jpeg",
+        "https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/about%204.jpeg"
+      ]
+    },
+  
+    "heads_section": {
+      "title": "Meet Our Heads",
+      "cards": [
+        {
+          "side": "left",
+          "image": "https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/head.jpeg",
+          "name": "Mohendra Singh",
+          "role": "Founder & Chairperson, Competitive Success Academy",
+          "popup_id": "popup-right",
+          "popup_title": "Ch. Mohendra Singh",
+          "popup_text": "The core purpose of education is to provide children with a learning environment which brings out the best in them..."
+        },
+        {
+          "side": "middle",
+          "image": "https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/head2.jpeg",
+          "name": "Tokpam Khelendro",
+          "role": "Secretary, Competitive Success Academy",
+          "tooltip_text": "Principal of CSA with 20+ years in education leadership, curriculum design, and academic innovation."
+        },
+        {
+          "side": "right",
+          "image": "https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/head3.png",
+          "name": "DR. K . Nabachandra Sharma",
+          "role": "",
+          "popup_id": "popup-left",
+          "popup_title": "DR. K . NABACHANDRA SHARMA",
+          "popup_text": "First of all, I congratulate the students who have passed the Class X Board Examination..."
+        }
+      ]
+    },
+  
+    "state_toppers": [
+        {
+            "rank": "8th Position",
+            "image": "https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/state--1.png",
+            "name": "",
+            "description": "Class of 2023 - 98.6%"
+          },
+          {
+            "rank": "17 Position",
+            "image": "https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/state-2.png",
+            "name": "Jennifer Park",
+            "description": "Class of 2023 - 97.8%"
+          },
+          {
+            "rank": "19th Position",
+            "image": "https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/state-3.png",
+            "name": "Maibam Puja Devi",
+            "description": "Class of 2023 - HSE"
+          },
+          {
+            "rank": "4th Position",
+            "image": "https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/state4.png",
+            "name": "Emily Chen",
+            "description": "Class of 2023 - 96.9%"
+          },
+          {
+            "rank": "5th Position",
+            "image": "https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/state5.png",
+            "name": "James Wilson",
+            "description": "Class of 2023 - 96.5%"
+          }
+    ],
+  
+    "subject_toppers": {
+      "2024": {
+        "title": "2024 Subject Toppers",
+        "image": "https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/subject-toppers-2024.jpeg"
+      },
+      "2023": {
+        "title": "2023 Subject Toppers",
+        "image": "https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/subject-toppers-2023.jpeg"
+      }
+    },
+  
+    "ad_section": {
+      "title": "Updates",
+      "left_image": "https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/2025%20ad%20for%20csa.jpeg",
+      "right_image": "https://cdn.jsdelivr.net/gh/russelkh/school-media/images%20copy/2024%20ad.jpeg",
+      "video": {
+        "source": "https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/csa%20ad%20video%20.mp4",
+        "poster": "https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/ad%20video%20thumbnail.jpeg"
+      }
+    },
+  
+    "map_section": {
+        "title": "Find Us",
+        "iframe_src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.6519951445784!2d93.9292816!3d24.8073673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3749275e5b29f41f%3A0x72f30dd55f9606fd!2sCompetitive%20Success%20Academy!5e0!3m2!1sen!2sin!4v1721151123152!5m2!1sen!2sin"
+      }
+      
+  }
+  

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meet Our Faculties - CSA</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="../static/styles.css"/>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-container">
+      <div class="logo-container">
+        <img src="https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/csa%20logo.png" alt="CSA Logo" class="logo"/>
+        <h1 class="school-name">Competitive Success Academy</h1>
+      </div>
+      <nav class="nav-menu">
+        <ul>
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="{{ url_for('faculties') }}"class="active">Faculties</a></li>
+            <li><a href="{{ url_for('admission') }}">Admission</a></li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Faculties Section -->
+  <section id="faculties"class="faculties-section">
+    <div class="container">
+        <h2 class="section-title">Meet Our Faculties</h2>
+        <div class="faculties-grid">
+            <div class="faculty-card">
+                <img src="https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/Salam%20Yaiphabi%20Devi.jpeg" alt="Faculty 1">
+                <h3>Salam Yaiphabi Devi</h3>
+                <p class="subject">Mathematics</p>
+                <p class="qualification">M.Sc Mathematics</p>
+            </div>
+            <div class="faculty-card">
+                <img src="https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/Thongam%20Dineshor%20Singh.jpeg" alt="Faculty 2">
+                <h3>Thongam Dineshor Singh</h3>
+                <p class="subject">Mathematics</p>
+                <p class="qualification">Lecturer M.Sc Mathematics B.Ed</p>
+            </div>
+            <div class="faculty-card">
+                <img src="https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/Bandana%20Chongtham.jpeg" alt="Faculty 3">
+                <h3>Bandan Chongtham</h3>
+                <p class="subject">English</p>
+                <p class="qualification">Vice-Principal (Lecturer M.A English)</p>
+            </div>
+            <div class="faculty-card">
+                <img src="https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/Eskara%20Chongtham.jpeg" alt="Faculty 4">
+                <h3>Eskara Chongtham</h3>
+                <p class="subject">English</p>
+                <p class="qualification">M.A English B.Ed</p>
+            </div>
+            <div class="faculty-card">
+                <img src="https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/Gautam%20Singh%20Yandrembam.jpeg"alt="Faculty 5">
+                <h3>Gautam Singh Yandrembam</h3>
+                <p class="subject">English Literature</p>
+                <p class="qualification">M.A English B.Ed</p>
+            </div>
+            <div class="faculty-card">
+                <img src="https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/Ngangom%20Pintu.jpeg" alt="Faculty 6">
+                <h3>Ngangom Pintu</h3>
+                <p class="subject">Manipuri</p>
+                <p class="qualification">M.A Manipuri B.Ed</p>
+            </div>
+            <div class="faculty-card">
+                <img src="https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/Vidyalaxmi%20Chingsubam.jpeg" alt="Faculty 6">
+                <h3>Vidyalaxmi Chingsubam</h3>
+                <p class="subject">Manipuri</p>
+                <p class="qualification">M.A Manipuri </p>
+            </div>
+            <div class="faculty-card">
+                <img src="https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/Priyabati%20Laishram.jpeg" alt="Faculty 6">
+                <h3>priyabarti Laishram</h3>
+                <p class="subject">Physics</p>
+                <p class="qualification">M.Sc Physic B.Ed</p>
+            </div>
+            <div class="faculty-card">
+                <img src="https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/Yandrembam%20Amita%20Devi.jpeg" alt="Faculty 6">
+                <h3>Yandrembam Amita Devi</h3>
+                <p class="subject">Physics</p>
+                <p class="qualification">M.Sc Physics B.Ed</p>
+            </div>
+            <div class="faculty-card">
+                <img src="https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/Yumnam%20Yaikhomba%20Meitei.jpeg" alt="Faculty 6">
+                <h3>Yumnam Yaikhomba Meitei</h3>
+                <p class="subject">Chemistry</p>
+                <p class="qualification">M.Sc Chemistry B.Ed</p>
+            </div>
+            <div class="faculty-card">
+                <img src="https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/Irom%20Sonali.jpeg" alt="Faculty 6">
+                <h3>Irom Sonali</h3>
+                <p class="subject">Chemistry</p>
+                <p class="qualification">M.Sc Chemistry</p>
+            </div>
+            <div class="faculty-card">
+                <img src="https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/Dr%20Khaidem%20Binky.jpeg" alt="Faculty 6">
+                <h3>Dr. Khaidem Binky</h3>
+                <p class="subject">zoology</p>
+                <p class="qualification">Former Lecturer (Zoology) COMET School</p>
+            </div>
+            <div class="faculty-card">
+                <img src="https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/Thounaojam%20Rameshori.jpeg" alt="Faculty 6">
+                <h3>Thounaojam Rameshori</h3>
+                <p class="subject">Biology</p>
+                <p class="qualification">M.Sc Biology, B.Ed</p>
+            </div>
+            <div class="faculty-card">
+                <img src="https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/Duanthaolu%20Dangmei.jpeg" alt="Faculty 6">
+                <h3>Duanthaolu Dangmei</h3>
+                <p class="subject">Biology</p>
+                <p class="qualification">M.Sc Biology, B.Ed</p>
+            </div>
+            <div class="faculty-card">
+                <img src="https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/Omega%20Oinam.jpeg" alt="Faculty 6">
+                <h3>Omega Oinam</h3>
+                <p class="subject">Biology</p>
+                <p class="qualification">M.Sc Biology</p>
+            </div>
+            <div class="faculty-card">
+                <img src="https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/Devika%20Ahanthem.jpeg" alt="Faculty 6">
+                <h3>Devika Ahanthem</h3>
+                <p class="subject"> Human Ecology and Family Sciences</p>
+                <p class="qualification">Lecturer of Human Ecology and Family Sciences</p>
+            </div>
+            <div class="faculty-card">
+                <img src="https://raw.githubusercontent.com/russelkh/school-media/main/images%20copy/Yumanam%20Moni.jpeg" alt="Faculty 6">
+                <h3>Yumanam Moni</h3>
+                <p class="subject"> Human Ecology and Family Sciences</p>
+                <p class="qualification">Lecturer of Human Ecology and Family Sciences</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+  <footer id="contact" class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="social-links">
+          <a href="https://www.facebook.com/profile.php?id=61559971550361" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="contact-info">
+          <p><i class="fas fa-envelope"></i> info@competitivesuccess.edu</p>
+          <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+          <p><i class="fas fa-map-marker-alt"></i> 123 Education Avenue, Academic City</p>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 Competitive Success Academy. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../static/script.js"></script>
+</body>
+</html>

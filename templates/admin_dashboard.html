@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f8f8f8;
+        }
+
+        .navbar {
+            background: #b30000;
+            color: white;
+            padding: 16px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar h1 {
+            font-size: 1.5rem;
+            margin: 0;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 6px 12px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
+
+        .dashboard-content {
+            padding: 40px;
+        }
+
+        .dashboard-content h2 {
+            margin-bottom: 20px;
+        }
+
+        .note {
+            color: #666;
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>CSA Admin Panel</h1>
+        <a href="{{ url_for('admin_logout') }}">Logout</a>
+    </div>
+
+    <div class="dashboard-content">
+        <h2>Welcome, Admin 👋</h2>
+        <p>This is your secure dashboard. Here you can:</p>
+        <ul>
+            <li>Manage image uploads</li>
+            <li>Update JSON data</li>
+            <li>Review form submissions</li>
+            <li>Maintain the site dynamically</li>
+        </ul>
+        <p class="note">🔒 Secure area — only accessible after login.</p>
+    </div>
+</body>
+</html>
